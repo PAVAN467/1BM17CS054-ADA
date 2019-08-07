@@ -46,7 +46,7 @@ int main()
     {
         scanf("%d",&a[i]);
     }
-    max = FindMax(int a,int n);
+    max = FindMax(a,n);
     printf("%d",max);
     return 0;
 }
