@@ -29,7 +29,6 @@ int main()
        a[i]=temp;
    }
    //printing the k th smallest element
-   for(i=0;i<k;i++)
-    printf("%d ",a[i]);
+   printf("%d ",a[k-1]);
 }
 
